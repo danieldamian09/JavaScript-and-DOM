@@ -6,16 +6,16 @@ const list = document.querySelector('ul');
 // Para saber cuanto hijos tiene un elemento
 // console.log(list.childElementCount)
 // Obtener el listado de Hijos
-console.log(list.children)
+// console.log(list.children)
 // Al ser un listado podemos iterarlo
 for (let i = 0; i < list.children.length; i++) {
   const elementHijos = list.children[i];
-  console.log(elementHijos)
+  // console.log(elementHijos)
 }
 
 // acceder a un hijo especifico de la lista
-console.log(list.children[3])
+// console.log(list.children[3])
 // accerder al primer hijo
-console.log(list.firstElementChild)
+// console.log(list.firstElementChild)
 //  acceder al ultimo hijo
-console.log(list.lastElementChild.innerHTML)
+// console.log(list.lastElementChild.innerHTML)

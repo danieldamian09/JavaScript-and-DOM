@@ -8,3 +8,6 @@ title.innerHTML = "Cursos";
 const description = document.getElementById('description');
 // console.log(description);
 description.innerHTML = "Listado de Cursos";
+
+
+

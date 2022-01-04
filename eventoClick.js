@@ -7,5 +7,5 @@ const buttonClick = document.querySelector('.btn.btn-primary');
 
 // Evento Doble Click
 buttonClick.addEventListener('dblclick', function(){
-  console.log('dobleclick');
+  // console.log('dobleclick');
 })

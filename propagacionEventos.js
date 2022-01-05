@@ -44,5 +44,10 @@ function show_messages(e){
   console.log("Elemento que disparo el evento: " + e.target.tagName)
   // Salto de linea para visualizar en Consola
   console.log("\n")
+
+  // Para detener la propagacion podemos utilizar
+  // e.stopPropagation();
 }
+
+
 
